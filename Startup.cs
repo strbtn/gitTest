@@ -32,7 +32,7 @@ namespace gitTest
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("git ĞŞ¸Ä²âÊÔ");
+                    await context.Response.WriteAsync("git ĞŞ¸Ä²âÊÔ!!!");
                 });
             });
         }
